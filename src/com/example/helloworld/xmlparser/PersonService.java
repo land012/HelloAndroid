@@ -1,4 +1,4 @@
-package com.example.helloworld.service;
+package com.example.helloworld.xmlparser;
 
 public class PersonService {
 	

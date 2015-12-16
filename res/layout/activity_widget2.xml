@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Widget2Activity" >
+
+    <Button
+        android:id="@+id/test_datetimedialog"
+        android:text="@string/test_datetimedialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    
+    <Button
+        android:id="@+id/test_listview"
+        android:text="@string/test_listview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/test_datetimedialog" />
+    <Button
+        android:id="@+id/test_listview2"
+        android:text="@string/test_listview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/test_listview"
+        android:layout_alignTop="@id/test_listview" />
+    
+    <Button
+        android:id="@+id/test_listview3"
+        android:text="@string/test_listview3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/test_listview" />
+    
+    <Button
+        android:id="@+id/test_listview4"
+        android:text="@string/test_listview4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/test_listview3"
+        android:layout_alignTop="@id/test_listview3" />
+    
+    <Button
+        android:id="@+id/test_gridview"
+        android:text="@string/test_gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/test_listview3" />
+    
+    <Button
+        android:id="@+id/test_gridview2"
+        android:text="@string/test_gridview2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/test_gridview"
+        android:layout_alignTop="@id/test_gridview" />
+
+</RelativeLayout>

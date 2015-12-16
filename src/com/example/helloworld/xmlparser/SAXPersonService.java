@@ -1,4 +1,4 @@
-package com.example.helloworld.service;
+package com.example.helloworld.xmlparser;
 
 import java.io.IOException;
 import java.io.InputStream;

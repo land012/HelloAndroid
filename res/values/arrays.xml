@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string-array name="dishes">
+        <item>餐1</item>
+        <item>餐2</item>
+        <item>餐3</item>
+    </string-array>
+    
+    <string-array name="position">
+        <item>CEO</item>
+        <item>CFO</item>
+        <item>CTO</item>
+    </string-array>
+    
+    <string-array name="animal">
+        <item>cak</item>
+        <item>cat</item>
+        <item>cav</item>
+        <item>dod</item>
+        <item>dog</item>
+        <item>pig</item>
+    </string-array>
+    
+    <string-array name="fruit" >
+        <item>apple</item>
+        <item>pear</item>
+        <item>peach</item>
+        <item>orange</item>
+        <item>banana</item>
+        <item>watermelon</item>
+    </string-array>
+</resources>

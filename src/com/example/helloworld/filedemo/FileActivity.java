@@ -1,7 +1,11 @@
-package com.example.helloworld;
+package com.example.helloworld.filedemo;
 
 
-import com.example.helloworld.service.FileService;
+import com.example.helloworld.R;
+import com.example.helloworld.R.id;
+import com.example.helloworld.R.layout;
+import com.example.helloworld.R.menu;
+import com.example.helloworld.R.string;
 
 import android.os.Bundle;
 import android.app.Activity;

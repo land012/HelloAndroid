@@ -31,5 +31,107 @@
     <string name="save">保存</string>
     <string name="success">成功！</string>
     <string name="fail">失败！</string>
+    
+    <string name="mobileshell">手机壳</string>
+    
+    <string name="delete">删除</string>
+    <string name="order1">点餐1</string>
+    <string name="order2">点餐2</string>
+    
+    <string name="username">用户名</string>
+    <string name="userpwd">密码</string>
+    <string name="autologin">自动登录</string>
+    <string name="login">登录</string>
+    
+    <!-- <string name="username">用户名</string>
+    <string name="userpwd">密码</string> -->
+	<string name="gender">性别</string>
+	<string name="male">男</string>
+	<string name="female">女</string>
+	<string name="married">婚姻状况</string>
+	<string name="hobby">爱好</string>
+	<string name="reading">读书</string>
+	<string name="swimming">游戏</string>
+	<string name="position">职务</string>
+	<string name="register">注册</string>
+	<string name="register_result">注册结果</string>
+	<string name="autocompletetextview">自动完成文本框</string>
+	
+	<string name="tab_test">选项卡测试</string>
+	<string name="tab_test_all">所有通话记录</string>
+	<string name="tab_test_ok">已接来电</string>
+	<string name="tab_test_cancel">未接来电</string>
+	
+	<string name="progressbar_test">进度条测试</string>
+	<string name="dialog_progressbar">对话框进度条</string>
+	<string name="title_progressbar">标题栏进度条</string>
+	
+	<string name="button">按钮</string>
+	
+	<string name="increase">增加</string>
+	<string name="decrease">减少</string>
+	
+	<string name="test_datetimedialog">日期时间Picker测试</string>
+    <string name="datepicker">选择日期</string>
+    <string name="timepicker">选择时间</string>
+    
+    <string name="test_listview">ListView测试</string>
+    <string name="test_listview2">ListView测试2</string>
+    <string name="test_listview3">ListView测试3</string>
+    <string name="test_listview4">ListView测试4</string>
+    
+    <string name="test_gridview">GridView测试</string>
+    <string name="test_gridview2">GridView测试2</string>
+    
+    <string name="please_input">请输入联系人姓名</string>
+    <string name="confirm">确认</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="activity_lifecycle">Activity 生命周期</string>
+    
+    <string name="componentname_test">组件名称测试</string>
+    <string name="title_activity_component_name">ComponentNameActivity</string>
+    <string name="custom_action_test">自定义 隐式Intent 测试</string>
+    <string name="title_activity_custom_action">CustomActionActivity</string>
+    <string name="system_action_test">系统Action——读取通讯录</string>
+    <string name="home">回到Home</string>
+    <string name="system_action_dial">Data属性测试</string>
+    <string name="title_activity_action_dial">ActionDialActivity</string>
+    <string name="custom_data_test">自定义Data属性</string>
+    <string name="custom_category_test">自定义Category属性</string>
+    <string name="implicit_intent_clash">隐式Intent重复</string>
+    
+    <string name="start_myservice">启动 MyService</string>
+    <string name="stop_myservice">停止 MyService</string>
+    <string name="bind_myservice">AIDL RPC</string>
+    <string name="unbind_myservice">解绑 MyService</string>
+    
+    <string name="send_broadcast">发出广播</string>
+    <string name="notification_test">Notification测试</string>
+    <string name="notification_test_send">通知</string>
+    <string name="notification_test_cancel">取消</string>
+    
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="noti_display_cancel_test">取消</string>
+    
+    <string name="alarmmanager_test">AlarmManager 测试</string>
+    <string name="alarm_set">设置闹钟</string>
+	<string name="alarm_cancel">取消闹钟</string>
+	
+	<string name="preference_test">Preference 测试</string>
+    <string name="sqloh_test">SQLiteOpenHelper 测试</string>
+    <string name="site_name">名称</string>
+    <string name="site_url">URL</string>
+    <string name="site_desc">描述</string>
+    <string name="site_add">添加</string>
+    <string name="site_view">查看</string>
+    <!-- <string name="title_activity_display">DisplayActivity</string> -->
+    
+    <string name="search_telephone">查找电话号码</string>
+    <string name="search">查找</string>
+    <string name="id">ID</string>
+    <string name="name">姓名</string>
+    
+    <string name="easymediaplayer">简易音乐播放器</string>
+    <string name="easyrecorder">简易录音器</string>
 
 </resources>

@@ -1,0 +1,125 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:collapseColumns="2"
+    android:stretchColumns="1"
+    tools:context=".WidgetActivity" >
+
+    <TableRow 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/username" />
+        <EditText
+            android:id="@+id/username"
+            android:inputType="text"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/userpwd" />
+        <EditText
+            android:id="@+id/userpwd"
+            android:inputType="textPassword"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/gender" />
+        <RadioGroup
+            android:orientation="horizontal" >
+            <RadioButton
+                android:id="@+id/male"
+                android:text="@string/male" />
+            <RadioButton
+                android:id="@+id/female"
+                android:text="@string/female" />
+        </RadioGroup>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/married" />
+        <LinearLayout
+            android:orientation="horizontal" >
+            <ToggleButton
+	            android:id="@+id/married"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+        </LinearLayout>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/hobby" />
+        <LinearLayout
+            android:orientation="horizontal" >
+            <CheckBox
+	            android:id="@+id/reading"
+	            android:text="@string/reading"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+	        <CheckBox
+	            android:id="@+id/swimming"
+	            android:text="@string/swimming"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+        </LinearLayout>
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/position" />
+        <Spinner
+            android:id="@+id/position" />
+    </TableRow>
+    
+    <TableRow>
+        <Button
+            android:id="@+id/register"
+            android:text="@string/register" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView
+            android:text="@string/autocompletetextview" />
+        <AutoCompleteTextView
+            android:id="@+id/actv_position"></AutoCompleteTextView>
+    </TableRow>
+    
+    <TableRow>
+        <Button
+            android:id="@+id/tab_test"
+            android:text="@string/tab_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+        <Button
+            android:id="@+id/progressbar_test"
+            android:text="@string/progressbar_test"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+</TableLayout>

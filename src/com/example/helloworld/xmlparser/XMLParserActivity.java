@@ -1,5 +1,9 @@
-package com.example.helloworld;
+package com.example.helloworld.xmlparser;
 
+
+import com.example.helloworld.R;
+import com.example.helloworld.R.layout;
+import com.example.helloworld.R.menu;
 
 import android.os.Bundle;
 import android.app.Activity;

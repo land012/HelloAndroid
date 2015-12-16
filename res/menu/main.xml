@@ -19,4 +19,54 @@
         android:orderInCategory="100"
         android:showAsAction="never" />
     
+    <item
+        android:title="File"
+        android:showAsAction="always">
+        <menu>
+            <group
+                android:checkableBehavior="none">
+                <item
+                    android:title="New"></item>
+                <item
+                    android:title="Open"></item>
+                <item
+                    android:title="Save"></item>
+            </group>
+            
+        </menu>
+    </item>
+    
+    <item
+        android:title="Edit"
+        android:showAsAction="always">
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item
+                    android:title="Cut"></item>
+                <item
+                    android:title="Copy"></item>
+                <item
+                    android:title="Paste"></item>
+            </group>
+            
+        </menu>
+    </item>
+    
+    <item
+        android:title="Help"
+        android:showAsAction="always">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/about"
+                    android:title="About"></item>
+                <item
+                    android:id="@+id/exit"
+                    android:title="Exit"></item>
+            </group>
+            
+        </menu>
+    </item>
+    
 </menu>
