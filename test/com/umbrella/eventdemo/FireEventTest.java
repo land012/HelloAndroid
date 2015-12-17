@@ -2,10 +2,10 @@ package com.umbrella.eventdemo;
 
 import org.junit.Test;
 
-import com.umbrella.eventdemo.event.FireEvent;
-import com.umbrella.eventdemo.eventsource.House;
-import com.umbrella.eventdemo.listener.Listener;
-import com.umbrella.eventdemo.listener.impl.FireListener;
+import cf.hector.eventdemo.event.FireEvent;
+import cf.hector.eventdemo.eventsource.House;
+import cf.hector.eventdemo.listener.Listener;
+import cf.hector.eventdemo.listener.impl.FireListener;
 
 /**
  * Ìí¼ÓÊÂ¼ş

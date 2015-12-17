@@ -19,11 +19,12 @@ import org.xmlpull.v1.XmlPullParserException;
 
 
 
-import com.example.helloworld.domain.Person;
-import com.example.helloworld.xmlparser.DOMPersonService;
-import com.example.helloworld.xmlparser.PULLPersonService;
-import com.example.helloworld.xmlparser.SAXPersonService;
 
+
+import cf.hector.helloworld.domain.Person;
+import cf.hector.helloworld.xmlparser.DOMPersonService;
+import cf.hector.helloworld.xmlparser.PULLPersonService;
+import cf.hector.helloworld.xmlparser.SAXPersonService;
 import android.content.Context;
 import android.test.AndroidTestCase;
 import android.util.Log;
